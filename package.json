@@ -1,0 +1,26 @@
+{
+  "name": "js-todo",
+  "version": "1.0.0",
+  "description": "simple to-do list",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.7.12",
+    "gulp": "^3.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EclipticWld/js-todo.git"
+  },
+  "author": "Andrew EclipticWld",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EclipticWld/js-todo/issues"
+  },
+  "homepage": "https://github.com/EclipticWld/js-todo#readme"
+}
