@@ -18,14 +18,14 @@ body {
 .input-group button {
   line-height: 2em;
 }
-#todo-list {
+.todo-list {
   padding: 15px 20px;
   margin: 20px 0;
   width: 20em;
   background: #d3d3d3;
   box-shadow: inset 0 5px 0 0 #f00;
 }
-#todo-list li {
+.todo-list li {
   position: relative;
   list-style: none;
   background-color: #fff;
@@ -34,18 +34,18 @@ body {
   padding: 0.5em;
   border-bottom: 0.125em solid #a0a0a0;
 }
-#todo-list li:last-child {
+.todo-list li:last-child {
   margin: 0;
 }
-#todo-list li:hover {
+.todo-list li:hover {
   cursor: pointer;
   background: #ff3f3f;
   border-bottom-color: #d80000;
 }
-#todo-list li:hover .close-button {
+.todo-list li:hover .close-button {
   color: #900;
 }
-#todo-list label:hover {
+.todo-list label:hover {
   cursor: pointer;
 }
 .close-button {

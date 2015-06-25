@@ -52,6 +52,10 @@ var app = function() {
             return false;
         }
 
+        if ( ul.classList.contains('todo-list') == false ) {
+            ul.classList.add('todo-list');
+        }
+
         creatItemList(textValue);
         inputText.value = '';
     };
