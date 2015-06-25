@@ -10,22 +10,22 @@ var app = function() {
         var list = doc.createElement('li'),
             label = doc.createElement('label'),
             checkbox = doc.createElement('input'),
-            removeButton = doc.createElement('span'),
+            removeButton = doc.createElement('i'),
             labelText = doc.createTextNode(value);
 
         checkbox.type = 'checkbox';
         checkbox.id = 'task' + countId;
         checkbox.name = 'task';
+        label.setAttribute('for','task' + countId);
         countId++;
 
-        removeButton.innerHTML = 'x';
-        removeButton.className = 'close-button';
+        removeButton.className = 'close-button fa fa-times-circle fa-lg';
 
         ul.appendChild(list);
         list.appendChild(checkbox);
         list.appendChild(label);
         label.appendChild(labelText);
-        label.appendChild(removeButton);
+        list.appendChild(removeButton);
 
         var removeListener = function() {
             ul.removeChild(list);

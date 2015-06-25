@@ -1,0 +1,54 @@
+@charset "UTF-8";
+body {
+  font: normal 1em/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #000;
+  background: #fff;
+  margin: 0;
+}
+.container {
+  max-width: 45em;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.input-group input {
+  line-height: 2em;
+  padding: 0 0.5em;
+}
+.input-group button {
+  line-height: 2em;
+}
+#todo-list {
+  padding: 15px 20px;
+  margin: 20px 0;
+  width: 20em;
+  background: #d3d3d3;
+  box-shadow: inset 0 5px 0 0 #f00;
+}
+#todo-list li {
+  position: relative;
+  list-style: none;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 0 0 1em;
+  padding: 0.5em;
+  border-bottom: 0.125em solid #a0a0a0;
+}
+#todo-list li:last-child {
+  margin: 0;
+}
+#todo-list li:hover {
+  cursor: pointer;
+  background: #ff3f3f;
+  border-bottom-color: #d80000;
+}
+#todo-list li:hover .close-button {
+  color: #900;
+}
+#todo-list label:hover {
+  cursor: pointer;
+}
+.close-button {
+  float: right;
+  margin: 3px 0;
+}
